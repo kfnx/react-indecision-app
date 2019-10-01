@@ -1,0 +1,33 @@
+.widget {
+    background: $light-blue;
+}
+
+.widget__empty-message {
+    text-align: center;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    padding: $l-size;
+    color: $off-white;
+}
+
+.widget__error-message {
+    text-align: center;
+    padding: $l-size;
+    color: red;
+}
+
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget-header {
+    padding: $m-size;
+}
+
+.widget-add-option {
+    display: flex;
+    justify-content: space-between;
+}
